@@ -1,0 +1,73 @@
+
+body{
+    background-image: linear-gradient(to left, rgb(162, 208, 247),rgb(23, 26, 172)) !important;
+}
+.calci{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    transition: 0.25px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 30px 40px 80px 40px;
+    border: 3px solid black;
+}
+#display{
+    border: none;
+    background: white;
+    border-radius: 30px;
+    width: 245px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: auto;
+    height: 60px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.Design{
+    width: 55px;
+    height: 55px;
+    padding-top: -1px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 20px;
+    margin: 1.5px;
+    font-weight: 300;
+    border-radius: 30px;
+    background-image: linear-gradient(to left, purple,pink);
+}
+.operatorDesign{
+    width: 55px;
+    height: 55px;
+    padding-top: -1;
+    font-family: sans-serif;
+    border: none;
+    font-size: 30px;
+    margin: 1.5;
+    font-weight: 300;
+    border-radius: 30px;
+    transition: 0.25px;
+    cursor: pointer;
+    background-image: linear-gradient(to left, blue,grey);
+}
+.operatorDesign:hover{
+    background-color: blue;
+}
+#zero{
+    width: 110px;
+    height: 55px;
+    padding-top: -1;
+    font-family: sans-serif;
+    border: none;
+    font-size: 20px;
+    margin: 1.5px;
+    font-weight: 300;
+    border-radius: 30px;
+    transition: 0.25px;
+    cursor: pointer;
+    background-image: linear-gradient( to left, white,black);
+}
